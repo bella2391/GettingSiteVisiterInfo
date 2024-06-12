@@ -19,7 +19,7 @@ try {
     echo 'DB接続エラー' . $e->getMessage();
 }
 
-require_once($_count);
+require_once("/function/count.php");
 
 $alart = "";
 if(!isset($_SESSION["counter"]["btn"])){
